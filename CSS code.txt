@@ -1,0 +1,168 @@
+/* Reset default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2px;
+    /* height: 120px; */
+}
+
+header {
+    background-color: hsl(0, 100%, 2%);
+    color: #fff;
+    padding: 5px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+    margin-top: 2px;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    margin-top: 1px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #ddd;
+}
+
+/* section {
+    padding: 10px;
+} */
+
+section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 60px;
+
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.about-content img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.about-content p {
+    font-size: 1.1rem;
+}
+
+.skills-list {
+    list-style-type: none;
+    text-align: center;
+}
+
+.skills-list li {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 5px;
+}
+#skills{
+    margin-top: 2px;
+margin-bottom: 2px;}
+
+
+
+
+.certificate {
+    margin-bottom: 80px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    padding: 20px;
+    overflow: hidden;
+    margin-top: 2px;
+}
+
+.certificate img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.certificate-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.certificate-info p {
+    font-size: 1.1rem;
+}
+
+footer {
+    background-color: hsl(0, 0%, 0%);
+    color: #ffffff;
+    text-align: center;
+   
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+.footer-links {
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+.footer-links li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.footer-links li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-links li a:hover {
+    text-decoration: underline;
+}
